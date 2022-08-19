@@ -1,0 +1,26 @@
+body{
+    font-family: Arial,sans-serif;
+    width: 700px;
+    line-height: 1.5;
+    font-size: 15px;
+}
+img{
+    display: block;
+    margin: auto;
+}
+.chuthich{
+    color: #00000090;
+    font-size: 13px;
+    font-style: italic;
+    text-align: center;
+}
+a{
+
+}
+.extra{
+    color: #00000090;
+    font-size: 12px;
+}
+h1{
+    font-weight: bold;
+}

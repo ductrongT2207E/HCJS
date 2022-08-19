@@ -1,5 +1,5 @@
 body{
-    background-color: #9b59b6; /*purple*/
+    background-color: #9b59b650; /*purple*/
     background-image: url("../images/class/sky.jpg");
     background-size: cover;
 }
@@ -10,12 +10,12 @@ p{
     color:#9b59b6;
     font-size: 16pt;
     font-weight: normal;
-    font-family: sans-serif;
+    font-family: 'Roboto',sans-serif ;
     line-height: 1.5; /*px = 16x1.5??*/
     text-align: justify; /*left right center justify*/
     text-decoration: none; /*line-through underline overline none*/
     text-transform: capitalize; /*uppercase*/
-    font-style: italic;/**/
+    /*font-style: italic;!**!*/
     background-color: burlywood;
     width: 1000px;
 }
