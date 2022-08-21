@@ -14,15 +14,17 @@ img{
     font-style: italic;
     text-align: center;
 }
-.link1 a{
+.link1:visited{
     color: #27ae60;
 }
-.link1 a:visited{
-    color: #27ae60;
-}
-.link1 a:hover{
+.link1:hover {
     color: #2ecc71;
 }
+.link2{
+    color:blue;
+    text-decoration: none;
+}
+
 .extra{
     color: #00000090;
     font-size: 12px;
