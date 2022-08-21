@@ -14,19 +14,19 @@ img{
     font-style: italic;
     text-align: center;
 }
-.link1{
-    color:#378b36;
-}
-/*.link1:visited{*/
-/*    color: #739900;*/
+/*.link1{*/
+/*    color:#378b36;*/
 /*}*/
-/*.link1:hover {*/
-/*    color: #99cc00;*/
+/*!*.link1:visited{*!*/
+/*!*    color: #739900;*!*/
+/*!*}*!*/
+/*!*.link1:hover {*!*/
+/*!*    color: #99cc00;*!*/
+/*!*}*!*/
+/*.link2{*/
+/*    color:blue;*/
+/*    text-decoration: none;*/
 /*}*/
-.link2{
-    color:blue;
-    text-decoration: none;
-}
 
 .extra{
     color: #00000090;
