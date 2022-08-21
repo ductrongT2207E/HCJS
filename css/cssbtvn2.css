@@ -14,8 +14,11 @@ img{
     font-style: italic;
     text-align: center;
 }
-a{
-
+.link1{
+    color: #27ae60;
+}
+.link1:hover{
+    color: #2ecc71;
 }
 .extra{
     color: #00000090;
