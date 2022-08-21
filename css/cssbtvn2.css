@@ -14,7 +14,10 @@ img{
     font-style: italic;
     text-align: center;
 }
-.link1{
+.link1 {
+    color: #27ae60;
+}
+.link1:visited{
     color: #27ae60;
 }
 .link1:hover{
