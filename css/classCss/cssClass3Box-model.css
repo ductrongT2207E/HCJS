@@ -1,0 +1,73 @@
+div{
+    /*diện tích cuối cùng của khối = border + padding + nội dung*/
+    /*width: 300px;*/
+    width: calc(25% - 10px - 10px);
+    float: left; /* right, none: don ve ben trai/phai den khi phan tu khong du cho*/
+    border: 1px solid green;/*dotted, dashed*/
+    /*border-top: 1px solid red;*/
+    /*border-right: 1px solid red;*/
+    /*border-bottom: 1px solid red;*/
+    /*border-left: 1px solid red;*/
+    margin: 10px; /* khoảng cách giữa border và bên ngoài.
+    mỗi phần tử cách nhau 10px nên khoảng cách giữa 2 phần tử là 20px*/
+/*    margin-top:10px;*/
+/*    margin-right:10px;*/
+/*    margin-bottom:10px;*/
+/*    margin-left:10px;*/
+    padding: 10px; /* khoảng cách giữa nội dung và border, padding sẽ tính vào diện tích của khối*/
+/*  padding-top:
+    padding-right:
+    padding-bottom:
+    padding-left:
+*/
+    box-sizing: border-box;
+    /*diện tích của div sẽ tính từ border đi vào và không vượt quá 300px, khi đó tăng padding thì diện tích nội dung
+    sẽ bị thu nhỏ sao cho tổng diện tích chỉ bằng 300px*/
+    border-radius: 5px;
+    box-shadow: 0 0 5px green;
+    /*đẩy phải, đẩy dưới, độ nhòe, màu*/
+    transition: 300ms all;
+}
+div:hover{
+    /*transform: rotate(45deg);*/
+    transform: translate(10px, -20px);
+    /*transform: scale(1.5);*/
+    /*nếu dùng cả 2 tranform thì nhận lệnh viết sau*/
+    /*background-color: powderblue;*/
+}
+img{
+    max-width: 100%; /*de anh be hon width ko bi keo ra nen mờ*/
+}
+#box-s{
+    background-color: #9b59b6;
+}
+.box-bt{
+    background-color: darksalmon;
+}
+.box-bbt{
+    border-radius: 50px;
+}
+
+
+
+body .box-bb p{ /*an toan*/
+    color: gold;
+}
+#box-s{/*an toan*/
+    color: white;
+}
+
+.box-bb .cp{
+    color: burlywood;
+}
+
+.box-bb p{
+    color: green;
+}
+
+p{
+    color: orange !important; /*không nên dùng vì không thể sửa đc nữa*/
+}
+p{
+    color: blue;
+}
