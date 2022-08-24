@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Demo</title>
+    <link rel="stylesheet" href="../form.css">
+</head>
+<body>
+  <form method="get" action="#">
+      <label>Full Name</label>
+      <input type="text" name="fullname" placeholder="Full name" required/>
+      <!--required de yeu cau nhap du thong tin moi submit dc-->
+      <br>
+      <label>Email</label>
+      <input type="email" name="your_email" placeholder="Email...">
+      <br>
+      <label>Telephone</label>
+      <input type="tel" name="phone" placeholder="Phone number">
+      <br>
+      <label>Password</label>
+      <input type="password" name="pwd" placeholder="Password...">
+      <br>
+      <label>Age</label>
+      <input type="number" min="1" max="100" name="age" placeholder="Age....">
+      <br>
+      <label>Birthday</label>
+      <input type="date" name="birthday" placeholder="Birthday....">
+      <br>
+      <label>My color</label>
+      <input type="color" name="mycolor" placeholder="Color...">
+      <br>
+      <label>Gender</label>
+      <label><input type="radio" name="gender" value="male">Nam</label> <!--neu khac ten thi có thể chọn nhiều option
+      thêm thẻ label để click vào text vẫn có thể lựa chọn-->
+      <input type="radio" name="gender" value="female">Nữ
+      <input type="radio" name="gender" value="other">Khác
+      <br>
+      <label>Xác nhận</label>
+      <label><input type="checkbox" name="confirm" value="yes">Tôi đã đọc và đồng ý với điều khoản của
+      công ty</label>
+      <br>
+
+      <label>Tiểu sử bản thân</label>
+      <textarea name="description" rows="5" cols="5"></textarea> <!--ko cần type vì name đã thể hiện type-->
+        <br>
+      <label>Tinh/Thanh pho</label>
+
+        <select name="city">
+            <option value="hanoi">Ha Noi</option>
+            <option value="saigon">TP Ho Chi Minh</option>
+            <option value="haiphong">Hai Phong</option>
+            <option value="cantho">Can Tho</option>
+        </select>
+      <br>
+
+      <button type="button">Button</button>
+      <br>
+      <button type="reset">Reset</button><!--reset data đã nhập-->
+      <br>
+      <button type="submit">Submit</button> <!--can thiet nhat, dung du gui du lieu di-->
+  </form>
+</body>
+</html>

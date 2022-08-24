@@ -1,0 +1,12 @@
+input[type=email]{
+    background-color: gold;
+}
+/*dung 1 thuoc tinh*/
+input[name=phone]{
+    background-color: orange;
+}
+/*dung 1 thuoc tinh*/
+input[type=password][name=pwd]{
+    background-color: deeppink;
+}
+/*dung 2 thuoc tinh*/
