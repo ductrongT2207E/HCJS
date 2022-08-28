@@ -7,31 +7,35 @@
 </head>
 <body>
 <div class="max">
-    <div class="title">Contact Form</div>
-    <div class="content">
+    <div class="header">
+        Contact Form
+    </div>
+    <div class="main">
         <form method="get" action="#">
-            <label>Name:<sup style="color:red;">*</sup></label>
-                <div class="name">
-                    <div class="name1a">
-                        <input type="text" name="fullname" required/>
-                        <p class="name2">First name</p>
-                    </div>
-                    <div class="name1b">
-                        <input type="text" name="fullname" required/>
-                        <p class="name2">Last name</p>
-                    </div>
+            <div class="d1 fullName">
+                <label>Name:<sup class="star">*</sup></label><br>
+                <div class="name firstname">
+                    <input type="text" name="firstname" required>
+                    <p class="name2">First name</p>
                 </div>
-                <div class="mailphone">
-                    <label>Email:<sup>*</sup></label><br>
-                    <input type="email" name="your_email" required>
+                <div class="name lastname">
+                    <input type="text" name="lastname" required>
+                    <p class="name2">Last name</p>
                 </div>
-                <div class="mailphone">
-                    <label>Phone:<sup>*</sup></label><br>
-                    <input type="tel" name="phone" required>
-                </div>
-                <button type="submit">Submit</button>
+            </div>
+            <div class="d1">
+                <label>Email:<sup class="star">*</sup>
+                    <input type="email" name="email" required>
+                </label>
+            </div>
+            <div class="d1">
+                <label>Phone:<sup class="star">*</sup></label>
+                <input type="tel" name="phone" required>
+            </div>
+            <button type="submit">Submit</button>
         </form>
     </div>
 </div>
 </body>
 </html>
+

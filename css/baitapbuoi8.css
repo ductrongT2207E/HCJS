@@ -1,58 +1,81 @@
 .max{
-    width: 400px;
-    border: 1px solid mediumseagreen;
-    height: 500px;
     font-family: Arial,sans-serif;
+    color: #222222;
+    border: 1px solid mediumseagreen;
+    margin: 0;
+    max-width: 600px;
+    height: 830px;
 }
-.title{
+.header{
+    /*border: 1px solid blue;*/
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
     background-color: mediumseagreen;
     color: white;
-    font-size: 25px;
-    line-height: 2.5;
-    padding: 0 0 0 30px;
+    font-size: 40px;
+    padding: 30px 40px;
+    font-weight: 500;
+    line-height: 50px;
 }
-.content{
-    padding: 25px 30px 25px 30px;
-    font-size: 20px;
-    line-height: 2;
+.main{
+    /*border: 1px solid black;*/
+    max-width: 100%;
+    margin: 0;
+    padding: 60px 50px;
+}
+.d1{
+    /*border: 1px solid deeppink;*/
+    margin: 0 0 30px 0;
+    max-width: 100%;
+}
+label{
+    font-size: 30px;
+    font-weight: 500;
+}
+.star{
+    color: red;
+    padding: 5px;
+}
+.fullName{
+    /*border: 1px solid red;*/
+    height: 140px;
+    margin: 0 0 30px 0;
 }
 .name{
-    width: 100%;
-    margin: 0;
+    /*border: 1px solid brown;*/
+    width: calc(50% - 15px);
+    box-sizing: border-box;
 }
-.name1a{
-    margin: 0 5px 0 0;
-    float: left;
-    width: calc(50% - 10px);
-}
-.name1b{
-    margin: 0 0 0 10px;
-    float: left;
-    width: calc(50% - 5px);
-}
-.name2{
-    color: #00000090;
-    font-size: 16px;
-    margin: 0;
-}
-.mailphone{
-    margin: 0 0 40px 0;
+.name p{
+    font-size: 20px;
+    margin: 5px 0 0 0;
+    color: #22222290;
 }
 input{
+    border: 1px solid #cccccc;
+    width: calc(100% - 6px);
+    height: 60px;
+    margin: 10px 0;
+    border-radius: 5px;
+    font-size: 30px;
+}
+input[type=text]{
+    margin: 8px 0 0 0;
+    width: calc(100% - 6px);
+}
+.firstname{
     float: left;
-    width: calc(100% - 10px);
-    height: 25px;
+}
+.lastname{
+    float: right;
 }
 button{
-    margin: 30px 0 0 0;
     width: 30%;
-    height: 30px;
-    font-size: 17px;
-    font-family: Arial,sans-serif;
+    height: 60px;
     border: 1px dashed #cccccc90;
+    font-size: 30px;
+    font-weight: 500;
+    margin: 30px 0 0 0;
 }
-sup{
-    padding: 5px 2px;
-    color: red;
-    font-weight: bold;
-}
+

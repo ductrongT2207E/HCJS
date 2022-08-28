@@ -10,3 +10,19 @@ input[type=password][name=pwd]{
     background-color: deeppink;
 }
 /*dung 2 thuoc tinh*/
+/*input[type=text]{*/
+/*    color: blue;*/
+/*    background-color: orange;*/
+/*    line-height: 1;*/
+/*    font-size: 20px;*/
+/*    padding: 5px;*/
+/*}*/
+label{
+    /*font-size: 25px;*/
+}
+textarea{
+    max-width: 100%;
+}
+.input{
+    height: 50px;
+}
