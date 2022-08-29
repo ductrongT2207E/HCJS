@@ -1,3 +1,6 @@
+*{
+    margin: 0;
+}
 div{
     float: left;
     font-family: Arial,sans-serif;
