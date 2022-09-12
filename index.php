@@ -1,1 +1,1 @@
-this is the what will appear on screen
+this is what will appear on screen
