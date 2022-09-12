@@ -1,0 +1,16 @@
+.forecast-page{
+    background-image: url("../images/sky.jpg");
+}
+.box-weather{
+    height: 130px;
+    float: left;
+    width: calc(25% - 30px);
+    background-color: #22222250 ;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 6px;
+    color: white;
+}
+.box-weather img{
+    transform: translate(150px,-88px); /*margin left & top*/
+}
