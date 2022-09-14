@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Calibri, sans-serif;
+    color: #958f9a;
+}
+.max1{
+    width: 400px;
+    height: 600px;
+    background-color: lightseagreen;
+    padding: 40px 60px;
+}
+.max2{
+    /*padding: 30px 20px;*/
+    height: 540px;
+    background-color: white;
+}
+.header{
+    background-color: #5d11a6;
+    padding: 20px;
+}
+.top-cart{
+    font-size: 30px;
+    color: white;
+    margin: 0 0 10px 0;
+    text-align: center;
+    background-color: #5d11a6;
+}
+.register{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+.content{
+    padding: 30px 40px;
+}
+input {
+    width: 230px;
+    height: 40px;
+    margin: 0 0 20px 0;
+    padding: 0 0 0 50px;
+    font-weight: 600;
+    background-color: #958f9a60;
+    border: none;
+}
+.checkbox{
+    height: 20px;
+    width: 15px;
+}
+button{
+    width: 300px;
+    height: 40px;
+    background-color: #5d11a6;
+    color: white;
+    border: none;
+}
+.already{
+    margin: 20px;
+    text-align: center;
+}
+i{
+    padding: 10px 0 0 0;
+    background-color: #9b59b6;
+    color: white;
+    padding: 3px;
+    font-size: 28px;
+}
+.top-cart i{
+    background-color: #5d11a6;
+}
