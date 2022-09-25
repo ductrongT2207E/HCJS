@@ -51,11 +51,12 @@ input {
     width: 15px;
 }
 button{
-    width: 300px;
+    width: 320px;
     height: 40px;
     background-color: #5d11a6;
     color: white;
     border: none;
+    font-weight: 600;
 }
 .already{
     margin: 20px;
@@ -63,7 +64,7 @@ button{
 }
 i{
     padding: 10px 0 0 0;
-    background-color: #9b59b6;
+    background-color: #5d11a6;
     color: white;
     padding: 3px;
     font-size: 28px;
