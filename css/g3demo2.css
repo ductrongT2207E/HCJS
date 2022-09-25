@@ -146,7 +146,7 @@ a{
     color: royalblue;
 }
 .fa-youtube{
-    color: orangered;
+    color: #d4020d;
 }
 .fa-envelope{
     color: #de770f;
@@ -253,10 +253,10 @@ h3 a:hover{
     background-image: none;
 }
 .new .deal-main{
-    background-color: #22222290;
+    background-color: #222222;
 }
 .new{
-    background-color: #222222;
+    background-color: black;
 }
 
 
