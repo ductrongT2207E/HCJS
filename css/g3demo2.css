@@ -84,6 +84,12 @@ a{
     float: left;
     border-radius: 5px;
 }
+nav img{
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 20px;
+}
 .nav li{
     border-radius: 5px;
     color: white;
@@ -120,16 +126,16 @@ a{
 }
 .footer-col{
     font-weight: bold;
-    font-size: 20px;
+    font-size: 16px;
 }
 .noidung-footer-col{
     color: #cccccc90;
     font-weight: lighter;
-    line-height: 1;
 }
 .mangxahoi{
-    float: left;
-    width: 65%;
+    float: right;
+    width: 20%;
+    margin-top: 50px;
 }
 .mangxahoi li{
     margin: 0 10px;
@@ -151,6 +157,23 @@ a{
 .fa-envelope{
     color: #de770f;
 }
+.diachi{
+    margin-top: 50px;
+    width: 50%;
+    float: left;
+    color: #cccccc;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
