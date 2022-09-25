@@ -1,13 +1,17 @@
+.main{
+    padding: 60px 0 0 0;
+    background-color: white;
+}
 .content{
     width: 100%;
 }
 .area{
-    background-color: green;
+    /*background-color: #de3535;*/
     width: 100%;
     border-radius: 10px;
     margin-bottom: 40px;
 }
-h1{
+.main h1{
     text-align: center;
     display: block;
     position: relative;
@@ -17,6 +21,7 @@ h1{
     color: white;
     font-weight: bold;
     line-height: 90px;
+    margin: 0;
 }
 .up-to{
     color: #ffd400;
@@ -88,11 +93,13 @@ h3 a:hover{
     margin-left: 5px;
 }
 .new h1{
-    background-color: #22222290;
     background-image: none;
 }
 .new .deal-main{
     background-color: #22222290;
+}
+.new{
+    background-color: #222222;
 }
 
 
