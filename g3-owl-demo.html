@@ -6,8 +6,11 @@
   <link rel="stylesheet" href="libraries/fontawesome/css/all.css">
   <link rel="stylesheet" href="css/layout.css">
   <link rel="stylesheet" href="css/g3-owl-demo.css">
-  <link rel="stylesheet" href="libraries/owlcarousel/assets/owl.carousel.min.css">
-  <link rel="stylesheet" href="libraries/owlcarousel/assets/owl.theme.default.min.css">
+  <link rel="stylesheet" href="libraries/owl-carousel/assets/owl.carousel.css">
+  <link rel="stylesheet" href="libraries/owl-carousel/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="libraries/owl-carousel/assets/owl.theme.default.min.css">
+  <script src="libraries/jquery/jquery3.6.1.js"></script>
+  <script src="libraries/owl-carousel/owl.carousel.min.js"></script>
 </head>
 <body>
 <header class="section header">
@@ -49,16 +52,14 @@
   </div>
 </nav>
 <section class="section slide">
-  <div class="container">
-    <div class="owl-carousel">
-      <div> Your Content </div>
-      <div> Your Content </div>
-      <div> Your Content </div>
-      <div> Your Content </div>
-      <div> Your Content </div>
-      <div> Your Content </div>
-      <div> Your Content </div>
-    </div>
+  <div class="owl-carousel owl-theme">
+    <div class="item"><img src="images/bigslide1.png"></div>
+    <div class="item"><img src="images/bigslide2.png"></div>
+    <div class="item"><img src="images/bigslide3.png"></div>
+    <div class="item"><img src="images/bigslide4.png"></div>
+    <div class="item"><img src="images/bigslide5.png"></div>
+    <div class="item"><img src="images/bigslide6.png"></div>
+    <div class="item"><img src="images/bigslide7.png"></div>
   </div>
 </section>
 <section class="section main">
@@ -67,7 +68,7 @@
       <div class="area hot-sale">
         <h1 class="hot-sale-title">HOT SALE <span class="up-to">GIẢM TỚI 100%</span></h1>
         <div class="deal-main">
-          <div class="item">
+          <div class="w-item">
             <a href="#"><img src="images/apple-watch-se-40mm.jpg" alt=""></a>
             <div class="item-info">
               <p class="sale-title"><i class="fa-solid fa-bolt-lightning"></i><span>TUU TRUONG GIAM SOC</span></p>
@@ -79,7 +80,7 @@
               </div>
             </div>
           </div>
-          <div class="item">
+          <div class="w-item">
             <a href="#"><img src="images/apple-watch-se-40mm.jpg" alt=""></a>
             <div class="item-info">
               <p class="sale-title"><i class="fa-solid fa-bolt-lightning"></i><span>TUU TRUONG GIAM SOC</span></p>
@@ -91,7 +92,7 @@
               </div>
             </div>
           </div>
-          <div class="item">
+          <div class="w-item">
             <a href="#"><img src="images/apple-watch-se-40mm.jpg" alt=""></a>
             <div class="item-info">
               <p class="sale-title"><i class="fa-solid fa-bolt-lightning"></i><span>TUU TRUONG GIAM SOC</span></p>
@@ -103,7 +104,7 @@
               </div>
             </div>
           </div>
-          <div class="item">
+          <div class="w-item">
             <a href="#"><img src="images/apple-watch-se-40mm.jpg" alt=""></a>
             <div class="item-info">
               <p class="sale-title"><i class="fa-solid fa-bolt-lightning"></i><span>TUU TRUONG GIAM SOC</span></p>
@@ -115,7 +116,7 @@
               </div>
             </div>
           </div>
-          <div class="item">
+          <div class="w-item">
             <a href="#"><img src="images/apple-watch-se-40mm.jpg" alt=""></a>
             <div class="item-info">
               <p class="sale-title"><i class="fa-solid fa-bolt-lightning"></i><span>TUU TRUONG GIAM SOC</span></p>
@@ -132,7 +133,7 @@
       <div class="area new">
         <h1 class="hot-sale-title">MOI RA MAT <span class="up-to">****NEW****</span></h1>
         <div class="deal-main">
-          <div class="item">
+          <div class="w-item">
             <a href="#"><img src="images/apple-watch-se-40mm.jpg" alt=""></a>
             <div class="item-info">
               <p class="sale-title"><i class="fa-solid fa-bolt-lightning"></i><span>TUU TRUONG GIAM SOC</span></p>
@@ -144,7 +145,7 @@
               </div>
             </div>
           </div>
-          <div class="item">
+          <div class="w-item">
             <a href="#"><img src="images/apple-watch-se-40mm.jpg" alt=""></a>
             <div class="item-info">
               <p class="sale-title"><i class="fa-solid fa-bolt-lightning"></i><span>TUU TRUONG GIAM SOC</span></p>
@@ -156,7 +157,7 @@
               </div>
             </div>
           </div>
-          <div class="item">
+          <div class="w-item">
             <a href="#"><img src="images/apple-watch-se-40mm.jpg" alt=""></a>
             <div class="item-info">
               <p class="sale-title"><i class="fa-solid fa-bolt-lightning"></i><span>TUU TRUONG GIAM SOC</span></p>
@@ -168,7 +169,7 @@
               </div>
             </div>
           </div>
-          <div class="item">
+          <div class="w-item">
             <a href="#"><img src="images/apple-watch-se-40mm.jpg" alt=""></a>
             <div class="item-info">
               <p class="sale-title"><i class="fa-solid fa-bolt-lightning"></i><span>TUU TRUONG GIAM SOC</span></p>
@@ -180,7 +181,7 @@
               </div>
             </div>
           </div>
-          <div class="item">
+          <div class="w-item">
             <a href="#"><img src="images/apple-watch-se-40mm.jpg" alt=""></a>
             <div class="item-info">
               <p class="sale-title"><i class="fa-solid fa-bolt-lightning"></i><span>TUU TRUONG GIAM SOC</span></p>
@@ -252,7 +253,31 @@
 </footer>
 <script type="text/javascript">
   $(document).ready(function(){
-    $(".owl-carousel").owlCarousel();
+    $('.owl-carousel').owlCarousel({
+
+      autoplay:true,
+      autoplayTimeout:2000,
+      dots:false,
+
+      loop:true,
+      margin:10,
+      nav:false,
+      navText: ["<img src='images/prev-icon.png' width='30px'>","<img src='/images/next-icon.png' width='30px'>"],
+      responsive:{
+
+        0:{
+
+          items:1
+        },
+        600:{
+
+          items:1
+        },
+        1000:{
+          items:1
+        }
+      }
+    })
   });
 </script>
 </body>
