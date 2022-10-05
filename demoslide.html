@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>owl carousel demo</title>
+    <link rel="stylesheet" href="libs/owl-carousel/assets/owl.carousel.css">
+    <link rel="stylesheet" href="libs/owl-carousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="libs/owl-carousel/assets/owl.theme.default.min.css">
+    <script src="libs/jquery/jquery3.6.1.js"></script>
+    <script src="libs/owl-carousel/owl.carousel.min.js"></script>
+<!--    <link rel="stylesheet" href="css/owcarouseldemo.css">-->
+</head>
+<body>
+<div class="owl-carousel owl-theme">
+    <div class="item"><img src="images/bigslide1.png"></div>
+    <div class="item"><img src="images/bigslide2.png"></div>
+    <div class="item"><img src="images/bigslide3.png"></div>
+    <div class="item"><img src="images/bigslide4.png"></div>
+    <div class="item"><img src="images/bigslide5.png"></div>
+    <div class="item"><img src="images/bigslide6.png"></div>
+    <div class="item"><img src="images/bigslide7.png"></div>
+</div>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('.owl-carousel').owlCarousel({
+
+            autoplay:true,
+            autoplayTimeout:2000,
+            dots:false,
+
+            loop:true,
+            margin:10,
+            nav:false,
+            navText: ["<img src='images/prev-icon.png' width='30px'>","<img src='/images/next-icon.png' width='30px'>"],
+            responsive:{
+
+                0:{
+
+                    items:1
+                },
+                600:{
+
+                    items:1
+                },
+                1000:{
+
+                    items:1
+                }
+            }
+        })
+    });
+</script>
+</body>
+</html>
